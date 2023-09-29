@@ -1,0 +1,42 @@
+@url=http://localhost:3333
+@rota=task
+@id=279e6e96-e225-4c91-929a-87d79c0f36f1
+
+
+# @name buscaTudo
+GET  {{url}}/{{rota}}/getAll
+
+###
+# @name buscaPorId
+GET  {{url}}/{{rota}}/{{id}}
+
+###
+# @name inserirTarefa
+POST {{url}}/{{rota}}/create
+Content-Type: application/json
+
+{
+    "user_id":"31bbe4ee-a218-4344-bd20-5f0c8661d883",
+    "name": "Estudar para Portugues",
+    "description": "Estudar para Prova de portugues"
+}
+
+###
+# @name deletarTarefa
+DELETE {{url}}/{{rota}}/{{id}}
+
+###
+# @name atualizarTarefa
+PUT {{url}}/{{rota}}/{{id}}
+Content-Type: application/json
+
+{
+    "title": "Maria"
+    ,"description": "destivado"
+    ,"isConcluded": true
+
+}
+
+###
+# @name confirmaTarefa
+PUT {{url}}/{{rota}}/conclude/{{id}}

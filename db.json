@@ -1,0 +1,50 @@
+{
+  "user": [
+    {
+      "id": "31bbe4ee-a218-4344-bd20-5f0c8661d883",
+      "name": "Maria da Silva",
+      "estado": "ativo"
+    }
+  ],
+  "task": [
+    {
+      "id": "f077f484-3728-49cb-9611-d48ba1b17485",
+      "user_id": "31bbe4ee-a218-4344-bd20-5f0c8661d883",
+      "description": "Estudar para Prova de portugues",
+      "isConcluded": false,
+      "created_at": "2023-09-29T18:23:15.430Z",
+      "updated_at": null
+    },
+    {
+      "id": "279e6e96-e225-4c91-929a-87d79c0f36f1",
+      "description": "Estudar para Prova de portugues",
+      "isConcluded": true,
+      "created_at": "2023-09-29T18:42:14.911Z",
+      "updated_at": "2023-09-29T18:46:38.513Z"
+    },
+    {
+      "id": "641bb299-57ee-42a6-85b9-3dcb45b12ec2",
+      "title": "Maria",
+      "description": "destivado",
+      "isConcluded": true,
+      "created_at": "2023-09-29T18:42:31.250Z",
+      "updated_at": "2023-09-29T18:43:35.973Z"
+    },
+    {
+      "id": "f54b0b0d-725b-4c37-aab9-40a2dac1e3c6",
+      "user_id": "31bbe4ee-a218-4344-bd20-5f0c8661d883",
+      "description": "Estudar para Prova de portugues",
+      "isConcluded": false,
+      "created_at": "2023-09-29T18:47:42.635Z",
+      "updated_at": null
+    },
+    {
+      "id": "b87b326f-e8dc-4928-b5b9-63a141d8fef6",
+      "user_id": "31bbe4ee-a218-4344-bd20-5f0c8661d883",
+      "description": "Estudar para Prova de portugues",
+      "isConcluded": false,
+      "created_at": "2023-09-29T18:47:50.323Z",
+      "updated_at": null
+    }
+  ]
+}

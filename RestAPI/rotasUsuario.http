@@ -1,0 +1,35 @@
+@url=http://localhost:3333
+@rota=user
+@id=45e00296-0d2c-487c-9b6d-7ba49ae85809
+
+
+# @name buscaTudo
+GET  {{url}}/{{rota}}/getAll
+
+###
+# @name buscaPorId
+GET  {{url}}/{{rota}}/{{id}}
+
+###
+# @name inserir
+POST {{url}}/{{rota}}/create
+Content-Type: application/json
+
+{
+    "name": "Maria da Silva"
+}
+
+###
+# @name deletarUsuario
+DELETE {{url}}/{{rota}}/{{id}}
+
+###
+# @name atualizarUsuario
+PUT {{url}}/{{rota}}/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Maria da Silva",
+    "estado": "ativo"
+
+}
